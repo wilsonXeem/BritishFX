@@ -19,7 +19,7 @@ export default function Heading() {
             <Nav.Link href="/about-us">
               <span className="li">About us</span>
             </Nav.Link>
-            <Nav.Link href="/account">
+            <Nav.Link href="/acc">
               <span className="li">Open an Account</span>
             </Nav.Link>
             <Nav.Link href="/performance">
