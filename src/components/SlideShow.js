@@ -15,7 +15,7 @@ export default function SlideShow() {
           <img
             className="d-block w-100"
             src={account}
-            alt="Image One"
+            alt=""
             height={560}
           />
           <Carousel.Caption>
@@ -27,7 +27,7 @@ export default function SlideShow() {
           <img
             className="d-block w-100"
             src={trans}
-            alt="Image Two"
+            alt=""
             height={560}
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ export default function SlideShow() {
           <img
             className="d-block w-100"
             src={reg}
-            alt="Image Two"
+            alt=""
             height={560}
           />
           <Carousel.Caption>
@@ -51,7 +51,7 @@ export default function SlideShow() {
           <img
             className="d-block w-100"
             src={ret}
-            alt="Image Two"
+            alt=""
             height={560}
           />
           <Carousel.Caption>
@@ -63,7 +63,7 @@ export default function SlideShow() {
           <img
             className="d-block w-100"
             src={re}
-            alt="Image Two"
+            alt=""
             height={560}
           />
           <Carousel.Caption>

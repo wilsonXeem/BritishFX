@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../secure investment data/logo.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
+
 export default function Heading() {
   return (
     <Navbar sticky="top" expand="lg" style={{ backgroundColor: "white" }}>
