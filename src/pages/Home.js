@@ -10,8 +10,10 @@ import {
 
 import p1 from "../secure investment data/p1.png";
 import p2 from "../secure investment data/p2.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate()
   return (
     <div>
       <SlideShow />
@@ -190,9 +192,7 @@ export default function Home() {
           We accept clients from all countries including USA and Canada.
         </p>
         <div className="btn">
-          <a href="/account">
-            <button>Open Account</button>
-        </a>
+            <button onClick={()=>navigate("account")}>Open Account</button>
         </div>
       </div>
       <div className="partners">
