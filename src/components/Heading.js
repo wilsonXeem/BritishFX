@@ -8,13 +8,22 @@ export default function Heading() {
   return (
     <Navbar sticky="top" expand="lg" style={{ backgroundColor: "white" }}>
       <Container>
-        <Navbar.Brand onClick={() => navigate("/")}>
+        <Navbar.Brand
+          onClick={() => {
+            navigate("/");
+          }}
+        >
           <img src={Logo} alt="Secure Forex Trading" width={150} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link onClick={() => navigate("/")}>
+            <Nav.Link
+              onClick={() => {
+                navigate("/");
+                window.location.reload();
+              }}
+            >
               <span className="li">Home</span>
             </Nav.Link>
             <Nav.Link

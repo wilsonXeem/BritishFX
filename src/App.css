@@ -254,6 +254,10 @@ footer p {
     font-weight: bolder;
   }
 
+  .slide img{
+    height: 300px;
+  }
+
   .us {
     padding: 4rem 1rem;
     background-color: rgb(228, 251, 251);
