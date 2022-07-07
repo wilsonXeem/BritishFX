@@ -116,21 +116,21 @@
   text-align: justify;
 }
 
-.btn{
+.btn {
   width: 100%;
   text-align: center;
 }
 
-button{
+button {
   border: none;
   width: 10rem;
-  height: 3rem;
+  height: 2rem;
   font-weight: bold;
   background-color: rgb(9, 9, 169);
   color: white;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(26, 239, 246);
   color: black;
 }
@@ -171,9 +171,6 @@ footer p {
   text-align: justify;
 }
 
-.acc {
-  height: 90vh;
-}
 .acc p {
   padding: 2rem 5rem;
   text-align: justify;
@@ -210,9 +207,119 @@ footer p {
   padding-left: 3rem;
 }
 
-.contact{
+.contact {
   padding: 2rem 5rem;
   height: 90vh;
+}
+
+.form {
+  padding: 2rem 8rem;
+}
+
+.sign {
+  height: 90vh;
+}
+
+.dashboard {
+  background-color: rgb(228, 251, 251);
+  padding: 2rem 5rem;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-gap: 2rem;
+}
+
+.nav {
+  background-color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 15px 2px blue;
+}
+.nav p {
+  margin: 0px;
+  color: rgb(0, 157, 255);
+  cursor: pointer;
+}
+.nav p:hover {
+  color: blue;
+}
+
+.accoun {
+  background-color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 10px 2px blue;
+}
+
+.accoun table {
+  width: 30%;
+  font-weight: bold;
+}
+
+.accoun td {
+  border-bottom: 1px blue solid;
+  height: 3rem;
+  font-size: large;
+}
+
+hr {
+  width: 80%;
+}
+
+.dep {
+  background-color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 10px 2px blue;
+}
+
+.dep table {
+  width: 50%;
+  font-weight: bold;
+}
+
+.dep td:nth-child(odd) {
+  height: 3rem;
+  font-size: large;
+}
+
+.dep tr:nth-child(odd) {
+  background-color: rgb(219, 241, 253);
+}
+.dep th {
+  background-color: blue;
+  color: white;
+}
+
+.b {
+  width: 3rem;
+}
+
+.input {
+  border: none;
+  width: 20rem;
+}
+
+.trade {
+  background-color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 10px 2px blue;
 }
 
 @media screen and (max-width: 700px) {
@@ -254,7 +361,7 @@ footer p {
     font-weight: bolder;
   }
 
-  .slide img{
+  .slide img {
     height: 300px;
   }
 
@@ -349,10 +456,6 @@ footer p {
     padding: 2rem 1rem;
     text-align: justify;
   }
-
-  .acc {
-    height: 90vh;
-  }
   .acc p {
     padding: 2rem 1rem;
   }
@@ -383,8 +486,90 @@ footer p {
     margin: 5px;
   }
 
-  .contact{
-  padding: 2rem 1rem;
-  height: 90vh;
+  .contact {
+    padding: 2rem 1rem;
+    height: 90vh;
+  }
+
+  .form {
+    padding: 2rem 1rem;
+  }
+
+  .nav {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 15px 2px blue;
 }
+  
+  .dashboard {
+    background-color: rgb(228, 251, 251);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accoun {
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px 2px blue;
+  }
+
+  .accoun table {
+    width: 80%;
+    font-weight: bold;
+  }
+
+  .accoun td {
+    border-bottom: 1px blue solid;
+    height: 3rem;
+    font-size: large;
+  }
+
+  .dep {
+    background-color: white;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px 2px blue;
+  }
+
+  .dep table {
+    width: 90%;
+    font-weight: bold;
+  }
+
+  .dep td:nth-child(odd) {
+    height: 3rem;
+    font-size: large;
+  }
+
+  .dep tr:nth-child(odd) {
+    background-color: rgb(219, 241, 253);
+  }
+  .dep th {
+    background-color: blue;
+    color: white;
+  }
+
+  .b {
+    width: 3rem;
+  }
+
+  .input {
+    border: none;
+    width: 100%;
+  }
 }

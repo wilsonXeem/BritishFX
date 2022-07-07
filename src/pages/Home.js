@@ -13,7 +13,7 @@ import p2 from "../secure investment data/p2.png";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div>
       <SlideShow />
@@ -56,28 +56,28 @@ export default function Home() {
         </div>
       </div>
       <div className="us">
-        <h1>Secure Forex Trading</h1>
+        <h1>BritishFX Trading</h1>
         <div className="x">
           <div className="hr"></div>
         </div>
         <p>
-          Don’t have the time to trade your own account? We believe a secured
-          forex account can give an investor who cannot watch the market 24
-          hours a day an opportunity to participate in the exciting world of
-          forex trading. Forex secured accounts are also ideal for those
-          investors who prefer to have their capital secured by professional
-          forex money manager. This is a viable solution for individuals or
-          companies looking to diversify into Forex without hands-on
-          involvement. It is an effective way for retail investors to benefit
-          from the knowledge, resources and experience of an investment manager
-          without the restrictions of investing in a hedge fund or other
-          alternative investment . <br />
+          Don’t have the time to trade your own account? We believe a BritishFX
+          account can give an investor who cannot watch the market 24 hours a
+          day an opportunity to participate in the exciting world of forex
+          trading. BritishFX accounts are also ideal for those investors who
+          prefer to have their capital secured by professional forex money
+          manager. This is a viable solution for individuals or companies
+          looking to diversify into Forex without hands-on involvement. It is an
+          effective way for retail investors to benefit from the knowledge,
+          resources and experience of an investment manager without the
+          restrictions of investing in a hedge fund or other alternative
+          investment . <br />
           As an Investor who wants to diversify his portfolio with a secured
           forex account we believe you have come to the right place.
         </p>
       </div>
       <div className="choose">
-        <h1>Why choose Secure Forex Trading?</h1>
+        <h1>Why choose BritishFX?</h1>
         <p>
           <FontAwesomeIcon
             icon={faCheck}
@@ -154,6 +154,46 @@ export default function Home() {
           We accept clients from all countries including USA and Canada.
         </p>
       </div>
+      <div className="trading">
+        <h1>The Legal Stuff</h1>
+        <div className="x">
+          <div className="hr"></div>
+        </div>
+        <p>
+          Financial spread trading comes with a high risk of losing money
+          rapidly due to leverage. 83.5% of retail investor accounts lose money
+          when trading CFDs with this provider. You should consider whether you
+          understand how spread trading works and whether you can afford to take
+          the high risk of losing your money. <br />
+          <br />
+          BritishFX is a trading name of BritishFX Financial UK Ltd, a financial
+          services company authorised and regulated by the Financial Conduct
+          Authority under firm reference number 525164. Our registered office is
+          Longbow House, 20 Chiswell Street, London, EC1Y 4TW, United Kingdom.{" "}
+          <br />
+          <br />
+          BritishFX is a trading name of BritishFX Australia Pty Ltd, a
+          financial services company authorised and regulated by the Australian
+          Securities and Investments Commission, ACN 158 065 635, AFSL No.
+          422661 <br />
+          <br />
+          BritishFX Financial (Pty) Ltd, registration number 2018/418755/07, is
+          authorised and regulated by the Financial Sector Conduct Authority,
+          FSP No 49846 <br />
+          <br />
+          BritishFX Ltd, registration Number 203493 B, is authorised and
+          regulated by the Securities Commission of the Bahamas, SIA-F216 <br />
+          <br />
+          The information on this site is not directed at residents of the
+          United States or any particular country outside the UK, Australia,
+          South Africa or The Bahamas and is not intended for distribution to,
+          or use by, any person in any country or jurisdiction where such
+          distribution or use would be contrary to local law or regulation. Full
+          Legal notices. <br />
+          <br />* The Loyalty Bonus is not offered with BritishFX UK and
+          BritishFX Australia accounts
+        </p>
+      </div>
       <div className="ret">
         <h1>Awesome Returns</h1>
         <div className="x">
@@ -189,10 +229,13 @@ export default function Home() {
           <b>Minimum Investment:</b> $1,000 <br /> <b>Broker:</b> We work with
           several brokers, arguably the world’s largest forex brokers, by
           liquidity & deposited funds, with an excellent reputation. <br />
-          We accept clients from all countries including USA and Canada.
+          We accept clients from all countries including USA and Canada. <br />
+          Any investment made in other currencies such as Bitcoin and Ethereum,
+          will have their dollar equivalent credited to the owner's BritishFX
+          account.
         </p>
         <div className="btn">
-            <button onClick={()=>navigate("account")}>Open Account</button>
+          <button onClick={() => navigate("/signup")}>Open Account</button>
         </div>
       </div>
       <div className="partners">
