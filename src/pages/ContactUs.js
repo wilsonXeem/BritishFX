@@ -14,15 +14,6 @@ export default function ContactUs() {
         <br />
         Or reach out to us at: <br />
         <b>Crown Way Cardiff CF13 3UZ DX 33049 Cardiff United Kingdom</b>
-        <br />
-        <br />
-        You can click on this link to chat directly:{" "} <br />
-        <a href="https://api.whatsapp.com/send?phone=447405844662">
-          <FontAwesomeIcon
-            icon={faPhoneSquare}
-            style={{ fontSize: "100px", color: "aqua" }}
-          />
-        </a>
       </div>
     </div>
   );

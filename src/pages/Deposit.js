@@ -53,7 +53,7 @@ export default function Deposit() {
             <input
               className="input"
               ref={textAreaRef}
-              value="hvngmfhcygcburhf7yuylcth89urijfh7fygtrue7hgc6yutegfu7iwehy8"
+              value="bc1qxfvzdap4q3ukjplqamcz46zk3u4ak9apndwgz4"
               readOnly
             />
           </form>
@@ -71,7 +71,7 @@ export default function Deposit() {
             <input
               className="input"
               ref={textAreaRef}
-              value="hvngmfhcygcburhf7yuylcth89urijfh7fygtrue7hgc6yutegfu7iwehy8"
+              value="0x3354c55D9e84e5B8BA3c1963AD1821eF8A4a27aC"
               readOnly
             />
           </form>

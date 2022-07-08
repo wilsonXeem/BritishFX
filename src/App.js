@@ -14,6 +14,7 @@ import Signin from "./pages/Signin";
 import Dashboard from "./pages/Dashboard";
 import Deposit from "./pages/Deposit";
 import Withdraw from "./pages/Withdraw";
+import FloatingWhatsApp from "react-floating-whatsapp";
 function App() {
   return (
     <>
@@ -34,6 +35,11 @@ function App() {
             <Route exact path="/contact-us" element={<ContactUs />} />
           </Routes>
         </Router>
+        <FloatingWhatsApp
+          accountName="BritishFX Customer Support"
+          phoneNumber="447405844662"
+          notificationSound={true}
+        />
       </div>
       <Footer />
     </>

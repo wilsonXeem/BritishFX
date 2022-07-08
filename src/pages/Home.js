@@ -188,8 +188,7 @@ export default function Home() {
           United States or any particular country outside the UK, Australia,
           South Africa or The Bahamas and is not intended for distribution to,
           or use by, any person in any country or jurisdiction where such
-          distribution or use would be contrary to local law or regulation. Full
-          Legal notices. <br />
+          distribution or use would be contrary to local law or regulation. <br />
           <br />* The Loyalty Bonus is not offered with BritishFX UK and
           BritishFX Australia accounts
         </p>
