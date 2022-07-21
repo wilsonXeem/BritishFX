@@ -40,7 +40,7 @@ export default function Home() {
             It is very easy to open a forex secured account and start investing.
             We will guide you through the entire process.
           </p>
-          <a href="/account">Read more>></a>
+          <a href="/signup">Read more>></a>
         </div>
         <div>
           <FontAwesomeIcon

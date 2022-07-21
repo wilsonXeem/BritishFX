@@ -15,6 +15,7 @@ import Dashboard from "./pages/Dashboard";
 import Deposit from "./pages/Deposit";
 import Withdraw from "./pages/Withdraw";
 import FloatingWhatsApp from "react-floating-whatsapp";
+import Services from "./pages/Services";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
             <Route exact path="/:id/deposit" element={<Deposit />} />
             <Route exact path=":id/withdraw" element={<Withdraw />} />
             <Route exact path="/performance" element={<Performance />} />
+            <Route exact path="/services" element={<Services />} />
             <Route exact path="/faqs" element={<Faqs />} />
             <Route exact path="/how-it-works" element={<HowItWorks />} />
             <Route exact path="/contact-us" element={<ContactUs />} />

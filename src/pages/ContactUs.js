@@ -1,7 +1,5 @@
 import React from "react";
 import SubHeading from "../components/SubHeading";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactUs() {
   return (
@@ -12,6 +10,7 @@ export default function ContactUs() {
         investment, contact us via Whatsapp at: <b>+447405844662</b>
         <br />
         <br />
+        <p>click <a href="https://fb.me/BritishFXTrade"><b>Here</b></a> to check out our facebook page for updates</p>
         Or reach out to us at: <br />
         <b>Crown Way Cardiff CF13 3UZ DX 33049 Cardiff United Kingdom</b>
       </div>

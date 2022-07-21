@@ -44,6 +44,16 @@ export default function Heading() {
             </Nav.Link>
             <Nav.Link
               onClick={() => {
+                navigate("/services");
+                window.location.reload();
+              }}
+            >
+              <span className="li">
+                <span className="li">Services</span>
+              </span>
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => {
                 navigate("/performance");
                 window.location.reload();
               }}
